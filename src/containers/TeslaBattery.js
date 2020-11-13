@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import './TeslaBattery.css';
-import TeslaNotice from '../components/TeslaNotice/TeslaNotice'
+import TeslaNotice from '../components/TeslaNotice/TeslaNotice';
+import TeslaCar from '../components/TeslaCar/TeslaCar';
 
 class TeslaBattery extends Component {
     render() {
         return (
             <form>
             <h1>Range Per Charge</h1>
+            <TeslaCar />
             <TeslaNotice />
             </form>
-        );
+        )
     }
 }
 
