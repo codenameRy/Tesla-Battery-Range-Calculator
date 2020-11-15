@@ -10,7 +10,7 @@ class TeslaBattery extends Component {
     super(props);
 
     this.calculateStats = this.calculateStats.bind(this);
-this.statsUpdate = this.statsUpdate.bind(this);
+    this.statsUpdate = this.statsUpdate.bind(this);
 
     this.state = {
       carstats: [],
