@@ -32,7 +32,7 @@ const TeslaCounter = (props) => (
     currentValue: PropTypes.number,
     increment: PropTypes.func,
     decrement: PropTypes.func,
-    initValues: PropTypes.object
+    initValues: PropTypes.object 
   }
 
 export default TeslaCounter;
