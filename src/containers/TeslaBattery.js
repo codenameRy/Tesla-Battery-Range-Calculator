@@ -4,6 +4,7 @@ import TeslaNotice from "../components/TeslaNotice/TeslaNotice";
 import TeslaCar from "../components/TeslaCar/TeslaCar";
 import TeslaStats from "../components/TeslaStats/TeslaStats";
 import { getModelData } from "../services/BatteryService";
+import TeslaCounter from "../components/TeslaCounter/TeslaCounter";
 
 class TeslaBattery extends Component {
   constructor(props) {
@@ -11,6 +12,9 @@ class TeslaBattery extends Component {
 
     this.calculateStats = this.calculateStats.bind(this);
     this.statsUpdate = this.statsUpdate.bind(this);
+    this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
+    this.updateCounterState = this.updateCounterState.bind(this);
 
     this.state = {
       carstats: [],
