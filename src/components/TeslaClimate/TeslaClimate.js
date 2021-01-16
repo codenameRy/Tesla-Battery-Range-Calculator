@@ -1,6 +1,7 @@
 import React from 'react';
 import './TeslaClimate.css';
 
+//Props
 const TeslaClimate = (props) => (
   <div className="tesla-climate">
     <label
